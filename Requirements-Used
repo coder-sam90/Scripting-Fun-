@@ -1,0 +1,12 @@
+Here are the modules that we are using in python. 
+- OS
+- shutil
+- Path/Pathlib
+
+OS is generaly used to interact with your OS. 
+shutil is shell utitlies. This is used for high level file and directory operations. 
+Path and Pathlib are used with file system paths in a easier way.
+
+pathlib = Your GPS (finds paths, tells you about locations)
+shutil = Your moving truck (actually moves stuff around)
+os = Your toolbox (general system tasks, though we used pathlib instead)
