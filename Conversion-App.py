@@ -30,21 +30,31 @@ def main():
       #Setting up the different options to pick from.
       #option 1:
         if pick == '1':
+        try:
                 gallons = float(input("Enter in gallons: "))
                 cups = gallons_to_cups(gallons)
                 print(f"{gallons} gallons is {cups} cups. ")
+        except ValueError:
+    print("Invalid input. Please enter a number.")
 
        #option 2:
         elif pick == '2':
+        try: 
                 pounds = float(input("Enter pounds: "))
                 grams = pounds_to_grams(pounds)
                 print(f"{pounds} pounds is {grams} grams.")
+        except ValueError:
+                print("Invalid input. Please enter a number.")
+
 
         #option 3
         elif pick == '3':
+        try:
                 ounces = float(input("Enter ounces: "))
                 grams = ounces_to_grams(ounces)
                 print(f"{ounces} ounces is {grams} grams.")
+        except ValueError:
+                print("Invalid input. Please enter a number.")
 
         #option 4
         elif pick == '4':
