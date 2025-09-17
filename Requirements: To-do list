@@ -1,0 +1,5 @@
+For this file, I used 
+import os
+import json
+
+import os is used to interact with the os and the import json is to have it be in json format.
